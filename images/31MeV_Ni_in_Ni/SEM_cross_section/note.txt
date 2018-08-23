@@ -1,0 +1,5 @@
+All FIB cross-sectioning and subsequent imaging was conducted on a FEI Helios 600 NanoLab dual-beam SEM/FIB. 
+Platinum protective layers normally 10x1x0.5 um were deposited using a 40pA, 30kV, Ga ion beam and 
+cross-sections subsequently milled and polished using the Ga beam at 0.79nA and 30kV. SEM Images were largely 
+taken in secondary electron mode at the machine eucentric angle of 52 degrees using an accelerating voltage of 
+3kV and a current of 0.40nA, unless otherwise noted.
