@@ -1,5 +1,9 @@
 # 2018-DH-TGS-InSitu-NIMB
-Data repository for 2018 NIMB submitted manuscript on an in situ DH-TGS beamline facilit
+Data repository for 2018 NIMB submitted manuscript on an in situ DH-TGS beamline facility
+
+See here for the static snapshot of the repository and a DOI: 
+
+<a href="https://www.zenodo.org/badge/latestdoi/145855552"><img src="https://www.zenodo.org/badge/145855552.svg" alt="DOI"></a>
 
 This is the information file for the data package associated with the manuscript entitled "Real-time 
 thermomechanical property monitoring during ion beam irradiation using in situ transient grating spectroscopy" 
