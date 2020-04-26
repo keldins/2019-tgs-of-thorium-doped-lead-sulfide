@@ -1,0 +1,223 @@
+head	1.10;
+access;
+symbols;
+locks; strict;
+comment	@% @;
+
+
+1.10
+date	2014.01.23.20.06.45;	author boojum;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2012.05.12.21.02.54;	author jdreed;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2012.02.15.16.15.23;	author jdreed;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2005.05.13.19.57.17;	author boojum;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.05.12.19.21.23;	author boojum;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2001.02.08.18.58.24;	author boojum;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	99.10.21.14.50.12;	author boojum;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	99.10.21.14.39.31;	author boojum;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	90.11.13.11.47.53;	author epeisach;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	90.11.13.11.46.48;	author epeisach;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.10
+log
+@added cmap and fontenc packages
+@
+text
+@% -*- Mode:TeX -*-
+
+%% IMPORTANT: The official thesis specifications are available at:
+%%            http://libraries.mit.edu/archives/thesis-specs/
+%%
+%%            Please verify your thesis' formatting and copyright
+%%            assignment before submission.  If you notice any
+%%            discrepancies between these templates and the 
+%%            MIT Libraries' specs, please let us know
+%%            by e-mailing thesis@@mit.edu
+
+%% The documentclass options along with the pagestyle can be used to generate
+%% a technical report, a draft copy, or a regular thesis.  You may need to
+%% re-specify the pagestyle after you \include  cover.tex.  For more
+%% information, see the first few lines of mitthesis.cls. 
+
+%\documentclass[12pt,vi,twoside]{mitthesis}
+%%
+%%  If you want your thesis copyright to you instead of MIT, use the
+%%  ``vi'' option, as above.
+%%
+%\documentclass[12pt,twoside,leftblank]{mitthesis}
+%%
+%% If you want blank pages before new chapters to be labelled ``This
+%% Page Intentionally Left Blank'', use the ``leftblank'' option, as
+%% above. 
+
+\documentclass[12pt,twoside]{mitthesis}
+\usepackage{lgrind}
+%% These have been added at the request of the MIT Libraries, because
+%% some PDF conversions mess up the ligatures.  -LB, 1/22/2014
+\usepackage{cmap}
+\usepackage[T1]{fontenc}
+\pagestyle{plain}
+
+%% This bit allows you to either specify only the files which you wish to
+%% process, or `all' to process all files which you \include.
+%% Krishna Sethuraman (1990).
+
+\typein [\files]{Enter file names to process, (chap1,chap2 ...), or `all' to
+process all files:}
+\def\all{all}
+\ifx\files\all \typeout{Including all files.} \else \typeout{Including only \files.} \includeonly{\files} \fi
+
+\begin{document}
+
+\include{cover}
+% Some departments (e.g. 5) require an additional signature page.  See
+% signature.tex for more information and uncomment the following line if
+% applicable.
+% \include{signature}
+\pagestyle{plain}
+\include{contents}
+\include{chap1}
+\include{chap2}
+\appendix
+\include{appa}
+\include{appb}
+\include{biblio}
+\end{document}
+
+@
+
+
+1.9
+log
+@Added reference to signature.tex
+@
+text
+@d30 4
+@
+
+
+1.8
+log
+@Add note about official specs
+@
+text
+@d44 4
+@
+
+
+1.7
+log
+@added left-blank pages
+@
+text
+@d3 9
+@
+
+
+1.6
+log
+@made vi not the default
+@
+text
+@d13 6
+@
+
+
+1.5
+log
+@added "twoside" to options
+@
+text
+@d8 6
+a13 1
+\documentclass[12pt,vi,twoside]{mitthesis}
+@
+
+
+1.4
+log
+@style, not class, in comments
+@
+text
+@d8 1
+a8 1
+\documentclass[12pt,vi]{mitthesis}
+@
+
+
+1.3
+log
+@converted to 2e
+@
+text
+@d3 1
+a3 1
+%% The documentstyle options along with the pagestyle can be used to generate
+d6 1
+a6 1
+%% information, see the first few lines of mitthesis.sty. 
+@
+
+
+1.2
+log
+@[changes.72 996] Must declare tgrind in the document style declaration
+@
+text
+@d8 2
+a9 1
+\documentstyle[12pt,tgrind]{mitthesis}
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d8 1
+a8 1
+\documentstyle[12pt]{mitthesis}
+@

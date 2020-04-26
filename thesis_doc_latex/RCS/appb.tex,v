@@ -1,0 +1,45 @@
+head	1.1;
+access;
+symbols;
+locks
+	boojum:1.1; strict;
+comment	@% @;
+
+
+1.1
+date	93.05.14.14.31.11;	author starflt;	state Exp;
+branches;
+next	;
+
+
+desc
+@Initial sample of appendix created by honor.
+@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@\chapter{Figures}
+
+\vspace*{-3in}
+
+\begin{figure}
+\vspace{2.4in}
+\caption{Armadillo slaying lawyer.}
+\label{arm:fig1}
+\end{figure}
+\clearpage
+\newpage
+
+\begin{figure}
+\vspace{2.4in}
+\caption{Armadillo eradicating national debt.}
+\label{arm:fig2}
+\end{figure}
+\clearpage
+\newpage
+@

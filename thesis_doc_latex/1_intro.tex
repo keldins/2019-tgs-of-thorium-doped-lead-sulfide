@@ -1,0 +1,104 @@
+%% This is an example first chapter.  You should put chapter/appendix that you
+%% write into a separate file, and add a line \include{yourfilename} to
+%% main.tex, where `yourfilename.tex' is the name of the chapter/appendix file.
+%% You can process specific files by typing their names in at the 
+%% \files=
+%% prompt when you run the file main.tex through LaTeX.
+\chapter{Introduction}
+Since the very beginning, ionizing radiation has been known by its effects on matter. R\"{o}ntgen deduced the existence of x-rays from fluorescence in a chemically treated piece of cardboard, and Curie deduced that uranium ore caused the accumulation of charge on her electrometer. Not long after, scientists initiated the study of radiation damage by measuring changes in the mechanical properties of metals after being exposed. Now, in the age of semiconductors, similar work has been carried out by dozens of scientists to characterize semiconductor changes after irradiation. The present work represents an installment in this effort by studying material property changes in polycrystalline lead sulfide (PbS) as a result of self-irradiation.
+
+The semiconductor lead sulfide, and thin films thereof, have attracted interest for several reasons. Because PbS has a direct band gap of .41 eV at 300 K, it finds use first and foremost as a detector of infrared light \cite{Machol1993, Machol1994}. This stands in contrast to other detection schemes, which are usually sensitive to heat, and only detect IR indirectly through local heating. These methods must therefore also be careful to reject noise caused by non-infrared sources of heat \cite{Rogalski2012}. In one particularly important application, satellites can be equipped with PbS based sensors to look back on earth to detect the hot ejecta from nuclear missile launches \cite{Rogalski2012}, or to peer into outer space in the service of sub-millimeter astronomy \cite{Baddiley1977}. Without the shielding of earth's atmosphere, instruments in orbit are exposed to considerably more ionizing radiation from the sun and outer space.
+
+While this makes for perhaps the most concrete reason to study radiation damage in lead sulfide, the unusual properties of lead sulfide, as well as the other lead chalcogenides PbSe and PbTe, have stimulated plenty of study and hinted at much untapped technological potential. Consider:
+\begin{enumerate}
+\item Small direct band gaps that decrease with hydrostatic pressure and, 
+\item In contrast to all other compound semiconductors, increase with temperature;
+\item Dielectric constants that are unusually large when compared to other semiconductors;
+\item Relatively large exciton Bohr radii, enabling tunable quantum confinement effects at relatively large grain sizes;
+\item Rock salt crystal lattices that are relatively stable over non-stoichiometry. \cite{Kumar2003}.
+\end{enumerate}
+
+These properties have been exploited to make infrared lasers \cite{Malyarevich2000}, solar control coatings \cite{Nair1989}, and even a method of nucleotide detection for DNA sequencing \cite{Hu2009}. Through band gap tuning, PbS may find use in visible light detectors or solar cells \cite{Semonin2012}, and pending a clearer understanding of radiation damage, could be used in fission or fusion reactor instrumentation \cite{Biton2014}. 
+
+
+% Speculative future applications of PbS(Th) include integrated circuit elements with an expiration date, or elements that require time to enter their operational zone. 
+
+
+
+
+
+%Of course, anything in orbit is exposed to much more radiation from the sun and outer space than on the earth's surface due to less shielding from the earth's atmosphere. Much of this is ionizing radiation, which is capable of causing material damage, including in lead sulfide detectors. The present work is thus a continuation of efforts to study how lead sulfide responds to radiation damage.
+
+%In particular, efforts at Ben-Gurion University of the Negev by Templeman et al. to grow thin films of lead sulfide by chemical bath deposition (CBD) culminated in development of a novel means to study radiation damage in PbS sulfide by doping the semiconductor with thorium. The radioactive thorium, uniformly dispersed throughout the lattice, destroys lead sulfide's crystal structure over time by blasting it with alpha particles. Templeman et al. studied the evolution of the semiconductor's electrical resistivity as a result of accumulated radiation damage. They demonstrated that resistivity increased up to a maximum and could be undone by annealing.
+
+%The same thorium-doped PbS thin film samples prepared and studied by Templeman et al. made their way to the United States. And in the present work, they are used to study the evolution of thermal diffusivity as a result of accumulated radiation damage using transient grating spectroscopy.
+
+
+
+% other cool things about PbS
+
+
+% radiation damage in PbS
+% all the reasons listed by Templeman
+
+% why study radiation damage in semiconductors? 
+% 		All electronics exposed to radiation (space, nuclear); expiring ICs; ICs that need time to become functional; ICs that exploit soft errors to generate random numbers.
+
+% why study radiation damage? 
+% 		Space, nuclear applications
+
+
+
+
+% thin film
+% epitaxial growth - get the same orientation & crystal structure
+% homoepitaxial - you get a more perfect crystal than what you started with
+% You couldn't grow a crystal otherwise
+% you can make layers, like in microchips, thus creating really tiny transistors, etc
+% The thinness allows for tuning properties
+% why thin films here? because that's just the way they could make PbS that was doped with thorium
+
+
+% it's important that it's PbS and that it's doped with thorium, but the CBD isn't important. It's just the only way the doping could be done.
+
+% band gap tuning
+% radiation damage changes the band gap
+% self-destructive electronics
+% DNA sequencing with bulk PbS
+% 
+% Does my sample count as epitaxial because it was grown on GaAs?
+
+
+
+
+
+
+
+
+% \cite{patterson:risc,rad83}.  
+% \cite{ellis:bulldog,pet87,coutant:precision-compilers}.  In these cases, the
+% \cite{gib86}.
+% These optimizations are described in detail in section~\ref{ch1:opts}.
+% \section{Description of micro-optimization}\label{ch1:opts}
+% \footnote{A description of the floating point format used is shown in figures~\ref{exponent-format}
+% and~\ref{mantissa-format}.}.  
+% A discussion of the mathematics behind unnormalized arithmetic is in appendix~\ref{unnorm-math}.
+
+% \footnote{Using unnormalized numbers for math is not a new idea; a
+% good example of it is the Control Data CDC 6600, designed by Seymour Cray.
+% \cite{thornton:cdc6600} The CDC 6600 had all of its instructions performing
+% unnormalized arithmetic, with a separate {\tt NORMALIZE} instruction.}.
+
+% This is an example of how you would use tgrind to include an example
+% of source code; it is commented out in this template since the code
+% example file does not exist.  To use it, you need to remove the '%' on the
+% beginning of the line, and insert your own information in the call.
+%
+%\tagrind[htbp]{code/pmn.s.tex}{Post Multiply Normalization}{opt:pmn}
+
+% This is an example of how you would use tgrind to include an example
+% of source code; it is commented out in this template since the code
+% example file does not exist.  To use it, you need to remove the '%' on the
+% beginning of the line, and insert your own information in the call.
+%
+%\tgrind[htbp]{code/be.s.tex}{Block Exponent}{opt:be}

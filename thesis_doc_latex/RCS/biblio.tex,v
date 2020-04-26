@@ -1,0 +1,47 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@% @;
+
+
+1.2
+date	2007.04.24.14.14.00;	author boojum;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	93.05.14.14.56.05;	author starflt;	state Exp;
+branches;
+next	;
+
+
+desc
+@First checkin
+@
+
+
+1.2
+log
+@bibliography is supposed to be single spaced
+@
+text
+@%% This defines the bibliography file (main.bib) and the bibliography style.
+%% If you want to create a bibliography file by hand, change the contents of
+%% this file to a `thebibliography' environment.  For more information 
+%% see section 4.3 of the LaTeX manual.
+\begin{singlespace}
+\bibliography{main}
+\bibliographystyle{plain}
+\end{singlespace}
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 1
+d8 1
+@
